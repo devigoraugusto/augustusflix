@@ -1,6 +1,33 @@
 {
   "categorias": [
     {
+      "titulo": "Músicas",
+      "link": "",
+      "cor": "#F70",
+      "link_extra": {
+        "text": "Músicas aleatórias para aprender a tocar no violão",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Henrique e Juliano (part. Marília Mendonca) - Flor e o Beija-flor",
+          "url": "https://www.youtube.com/watch?v=LmRrLl8aLfE"
+        },
+        {
+          "titulo": "Mundo Bita - Fazendinha",
+          "url": "https://www.youtube.com/watch?v=cjONzZPJONc"
+        },
+        {
+          "titulo": "Marília Mendonça - Graveto",
+          "url": "https://www.youtube.com/watch?v=CKtHg1jBREY"
+        },
+        {
+          "titulo": "Jota Quest - O Vento",
+          "url": "https://www.youtube.com/watch?v=fAQj1gj49SI"
+        }
+      ]
+    },
+    {
       "titulo": "Front End",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",

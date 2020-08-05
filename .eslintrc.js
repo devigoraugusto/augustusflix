@@ -25,6 +25,7 @@ module.exports = {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "linebreak-style": [0, "windows"],
     "react/prop-types": [0, { }],
+    "import/prefer-default-export": [0, {}],
   },
 };
 

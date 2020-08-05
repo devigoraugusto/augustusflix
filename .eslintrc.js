@@ -22,5 +22,10 @@ module.exports = {
     'react',
   ],
   rules: {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": [0, "windows"],
+    "react/prop-types": [0, { }],
   },
 };
+
+// process.env.NODE_ENV === 'prod' ? "unix" : 

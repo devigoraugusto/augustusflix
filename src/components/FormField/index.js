@@ -7,12 +7,15 @@ const FormFieldWrapper = styled.div`
   textarea {
     min-height: 150px;
   }
+
   input[type="color"] {
     padding-left: 56px;
+    width: 100px;
   }
 `;
 
-const Label = styled.label``;
+const Label = styled.label`
+`;
 
 Label.Text = styled.span`
   color: #E5E5E5;
@@ -95,8 +98,8 @@ function FormField({
 }
 
 FormField.defaultProps = {
-  type: 'text',
-  value: '',
+  type: 'text',
+  value: '',
 };
 
 FormField.propTypes = {

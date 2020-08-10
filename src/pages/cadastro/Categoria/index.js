@@ -79,7 +79,7 @@ function CadastroCategoria() {
           value={values.descricao}
           onChange={handleChange}
         />
-        
+
         <FormField
           label="Cor"
           type="color"
@@ -87,7 +87,7 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
-        
+
         <Button type="submit">
           Cadastrar
         </Button>
@@ -103,7 +103,7 @@ function CadastroCategoria() {
       <ul>
         {categorias.map((categoria) => (
           <li key={`${categoria.id}`}>
-            {categoria.nome}
+            {categoria.titulo}
           </li>
         ))}
       </ul>

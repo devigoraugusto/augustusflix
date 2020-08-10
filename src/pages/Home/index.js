@@ -19,16 +19,16 @@ const HomeWrapper = styled.div`
 
 function Home() {
   return (
-    <HomeWrapper style={{ background: "#141414"}}>
+    <HomeWrapper style={{ background: '#141414' }}>
       <Menu />
-      
-      <BannerMain 
+
+      <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Músicas para aprender e desenvolver as técnicas de violão, e de quebra curtir com os amigos."}
+        videoDescription="Músicas para aprender e desenvolver as técnicas de violão, e de quebra curtir com os amigos."
       />
 
-      <Carousel 
+      <Carousel
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
@@ -53,9 +53,7 @@ function Home() {
         category={dadosIniciais.categorias[5]}
       />
 
-      <Footer 
-
-      />
+      <Footer />
     </HomeWrapper>
   );
 }

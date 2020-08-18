@@ -31,16 +31,8 @@ a {
 }
 
 #root { 
-  min-height: 100vh;
+  min-height: calc(100vh - var(--bodyPaddingTop));
   background: var(--black);
   display: flex;
   flex-direction: column;
-}
-
-body {
-  padding-top: calc(100vh-var(--bodyPaddingTop));
-  
-  @media (max-width: 800px) {
-    padding-top: calc(100vh-var(--bodyPaddingTop));
-  }
 }

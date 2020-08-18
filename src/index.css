@@ -34,10 +34,10 @@ a {
 
 body {
   --bodyPaddingTop: 94px;
-    padding-top: ( 100vh - var(--bodyPaddingTop));
-  
+    padding-top: calc(100vh-var(--bodyPaddingTop));
+
   @media (max-width: 800px) {
     --bodyPaddingTop: 40px;
-    padding-top: ( 100vh - var(--bodyPaddingTop));
+    padding-top: calc(100vh-var(--bodyPaddingTop));
   }
 }

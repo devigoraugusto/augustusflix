@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  --bodyPaddingTop: 94px;
+  
+  @media (max-width: 800px) {
+    --bodyPaddingTop: 40px;
+  }
 }
 
 :root {
@@ -33,11 +38,9 @@ a {
 }
 
 body {
-  --bodyPaddingTop: 94px;
-    padding-top: calc(100vh-var(--bodyPaddingTop));
-
+  padding-top: calc(100vh-var(--bodyPaddingTop));
+  
   @media (max-width: 800px) {
-    --bodyPaddingTop: 40px;
     padding-top: calc(100vh-var(--bodyPaddingTop));
   }
 }

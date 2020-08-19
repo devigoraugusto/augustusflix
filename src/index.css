@@ -36,3 +36,7 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+body {
+  padding-top: var(--bodyPaddingTop);
+}
